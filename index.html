@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bill Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <h1>HOME-DINE RESTAURANT</h1>
+        <p>(Get Discount Surprises All Week)</p>
+        <div class="left-box"></div>
+        <div class="center-box">
+            <h2>BILL GENERATOR</h2>
+            <label>SELECT DATE</label>
+            <br>
+            <input type="date" name="date" id="date">
+            <br><br>
+            <label>SELECT DAY</label>
+            <br>
+            <select id="day">
+                <option>MONDAY</option>
+                <option>TUESDAY</option>
+                <option>WEDNESDAY</option>
+                <option>THURSDAY</option>
+                <option>FRIDAY</option>
+                <option>SATURDAY</option>
+                <option>SUNDAY</option>
+            </select>
+            <br><br>
+            <label>FOOD</label>
+            <br>
+            <select id="item">
+                <option>Idly Sambhar & Chutney</option>
+                <option>Vada with Sambhar Chutney</option>
+                <option>1Pcs. Idly 1Pc. Vada</option>
+                <option>Rava Idly with Korma</option>
+                <option>Dahi Vada</option>
+                <option>Upma</option>
+                <option>Dahi Idli</option>
+                <option>2Pcs Idli & 1Pcs Vada</option>
+                <option>Upma & Rava Kesari</option>
+                <option>Rasam Vada with Papad</option>
+                <option>Rasam Idli with Papad</option>
+                <option>Rasam with Papad</option>
+                <option>Poori with 2 Veg-Raita</option>
+                <option>Sambhar</option>
+                <option>Upma & 1Pcs Vada</option>
+                <option>1Pcs Rasam Idli</option>
+                <option>1Pcs Rasam Vada</option>
+                <option>1Pcs Rawa Idli</option>
+                <option>1Pcs Dahi Vada</option>
+                <option>1Pcs Idli</option>
+                <option>1Pcs Vada</option>
+                <option>1Pcs Papad</option>
+                <option>1Pcs Poori</option>
+            </select>
+            <br><br>
+            <label>QUANTITY</label>
+            <br>
+            <input type="number" name="quantity" id="quantity">
+            <br><br>
+            <input type="submit" value="ADD" id="add">
+        </div>
+        <div class="right-box">
+            <h2>ADDED ITEMS</h2>
+        </div>
+        <div class="show"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

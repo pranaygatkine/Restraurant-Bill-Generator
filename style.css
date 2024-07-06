@@ -1,0 +1,83 @@
+
+body {
+    background: #FFC107;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+}
+h1{
+    clear: both;
+}
+.left-box {
+    width: 45%;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 50px;
+    background: url("https://www.stlmag.com/downloads/291284/download/0219_Elmwood_0016.jpg?cb=05f56521ae049e15a8f3d244cafb3822&w=640");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    
+}
+
+.center-box {
+    float: left;
+    width: 20%;
+    height: 500px;
+    border: solid 1px black;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.right-box {
+    float: left;
+    width: 20%;
+    height: 500px;
+    border: solid 1px red;
+    text-align: center;
+}
+.show {
+    clear: both;
+    width: 1330px;
+    height: 150px;
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+    body {
+        background: yellowgreen;
+    }
+    .left-box {
+        float: none;
+        margin: auto;
+    }
+    .center-box, .right-box, .show {
+        float: none;
+        width: 45%;
+        height: auto;
+        margin: auto;
+        border: none;
+    }
+}
+
+@media(max-width: 1180px) {
+    h1, p{
+        text-align: center;
+    }
+    .left-box {
+        float: none;
+        margin: auto;
+        background: url("https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2018/04/going-beyond-idli-dosa-south-india.png");
+        width: 90%;
+        margin: auto;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+    .center-box, .right-box, .show {
+        float: none;
+        width: 45%;
+        height: auto;
+        margin: auto;
+        border: none;
+    }
+}
